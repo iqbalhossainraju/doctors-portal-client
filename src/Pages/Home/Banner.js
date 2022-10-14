@@ -1,15 +1,16 @@
 import React from 'react';
 import Chair from '../../assets/images/chair.png';
+import PrimaryButton from '../Shared/PrimaryButton';
 
 const banner = () => {
     return (
-        <div className="hero min-h-screen px-12 bg-[url('/src/assets/images/bg.png')] bg-cover bg-no-repeat bg-center">
+        <div className="hero min-h-screen bg-[url('/src/assets/images/bg.png')] bg-cover bg-no-repeat bg-center">
             <div className="hero-content flex-col lg:flex-row-reverse">
-                <img src={Chair} className="max-w-sm rounded-lg shadow-2xl" />
-                <div>
+                <img src={Chair} className="sm:max-w-sm rounded-lg shadow-2xl" />
+                <div className="mr-10">
                     <h1 className="text-5xl font-bold">Your New Smile Starts Here</h1>
                     <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                    <button className="btn btn-primary text-white bg-gradient-to-r from-secondary to-primary font-blod">Get Started</button>
+                    <PrimaryButton>Get started</PrimaryButton>
                 </div>
             </div>
         </div>
