@@ -3,8 +3,11 @@ import footer from '../../assets/images/footer.png';
 
 const Footer = () => {
     return (
-        <footer className="p-10" style={{ background: `url(${footer})`, backgroundSize: 'cover' }}>
-            <div className="footer">
+        <footer style={{
+            background: `url(${footer})`,
+            backgroundSize: 'cover'
+        }} className="p-10">
+            <div className='footer'>
                 <div>
                     <span className="footer-title">Services</span>
                     <a className="link link-hover">Branding</a>
@@ -26,8 +29,8 @@ const Footer = () => {
                     <a className="link link-hover">Cookie policy</a>
                 </div>
             </div>
-            <div className="text-center my-5">
-                <p>Copyright &copy; {new Date().getFullYear()} - All right reserved by Doctor Portal</p>
+            <div className='my-10 text-center'>
+                <p>Copyright © 2022 - All right reserved</p>
             </div>
         </footer>
     );

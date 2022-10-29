@@ -1,21 +1,20 @@
 import React from 'react';
-import background from '../../assets/images/bg.png';
-import Chair from '../../assets/images/chair.png';
+import chair from '../../assets/images/chair.png';
 import PrimaryButton from '../Shared/PrimaryButton';
 
-const banner = () => {
+const Banner = () => {
     return (
-        <div className="hero min-h-screen" style={{ background: `url(${background})`, backgroundSize: 'cover' }}>
+        <div className="hero min-h-screen">
             <div className="hero-content flex-col lg:flex-row-reverse">
-                <img src={Chair} className="sm:max-w-sm rounded-lg shadow-2xl" />
-                <div className="mr-10">
+                <img src={chair} className="max-w-sm rounded-lg shadow-2xl" />
+                <div>
                     <h1 className="text-5xl font-bold">Your New Smile Starts Here</h1>
                     <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                    <PrimaryButton>Get started</PrimaryButton>
+                    <PrimaryButton>Get Started</PrimaryButton>
                 </div>
             </div>
         </div>
     );
 };
 
-export default banner;
+export default Banner;

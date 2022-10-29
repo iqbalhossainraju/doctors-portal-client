@@ -1,10 +1,9 @@
 import React from 'react';
-import Footer from '../Shared/Footer';
 import Banner from './Banner';
-import ContactUs from './ContactUs';
-import DentalCare from './DentalCare';
+import Contact from './Contact';
+import Footer from '../Shared/Footer';
 import Info from './Info';
-import MakeApointment from './MakeApointment';
+import MakeAppointment from './MakeAppointment';
 import Services from './Services';
 import Testimonials from './Testimonials';
 
@@ -14,10 +13,9 @@ const Home = () => {
             <Banner></Banner>
             <Info></Info>
             <Services></Services>
-            <DentalCare></DentalCare>
-            <MakeApointment></MakeApointment>
+            <MakeAppointment></MakeAppointment>
             <Testimonials></Testimonials>
-            <ContactUs></ContactUs>
+            <Contact></Contact>
             <Footer></Footer>
         </div>
     );
